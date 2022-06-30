@@ -5,7 +5,6 @@ import * as optimisticApi from "./optimisticApi";
 api.defaults.baseUrl = `${process.env.SERVER_URL}/v2`;
 optimisticApi.defaults.baseUrl = `${process.env.SERVER_URL}/v2`;
 
-(global as any).fetch = require("node-fetch");
 (global as any).FormData = require("form-data");
 
 describe("ok", () => {
