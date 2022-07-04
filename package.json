@@ -39,7 +39,7 @@
     "ts-jest": "^27.0.3",
     "ts-node": "^10.0.0",
     "with-server": "^2.0.0",
-    "cross-blob": "^2.0.0"
+    "cross-blob": "^3.0.1"
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.0.1",
